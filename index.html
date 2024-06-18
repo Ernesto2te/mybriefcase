@@ -1,0 +1,625 @@
+<!--
+Author: netoayouts
+Author URL: http://netoayouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>UI Portfolio - Jesus Ernesto Hernandez Aguilar </title>
+
+    <!-- google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- //google-fonts -->
+
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+    <style>
+   
+        .content-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: all 0.4s ease-in-out;
+        }
+        .image-block:hover .content-overlay {
+            opacity: 1;
+        }
+
+        .image-block:hover .content-details {
+            opacity: 1;
+        }
+        .content-title, .content-text {
+            color: #fff;
+        }
+        .carousel-item img {
+            transition: transform 0.5s ease;
+        }
+        .carousel-item img:hover {
+            transform: scale(1.05);
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke">
+                <h1>
+                  <i class="fas fa-briefcase"></i> IU Portafolio
+                </a>
+                </h1>
+                <!-- if logo is image enable this   
+            <a class="navbar-brand" href="#index.html">
+                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+            </a> -->
+                <button class="navbar-toggler collapsed bg-gradient" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-lg-auto align-items-center">
+                  
+                        <div class="header-btn mx-2">
+                            <a class="btn btn-style btn-primary mr-lg-5" href="#contac"> Contactame </a>
+                        </div>
+                        <!--/right-btn-->
+
+                    </ul>
+                </div>
+
+                <!-- //search -->
+           
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="neto-banner ">
+        <div class="container pt-lg-5 pt-md-4">
+            <div class="row pt-lg-5 pt-4">
+                <div class="col-lg-7 banner-info-grid pt-lg-0 pt-5">
+                    <h1 class="mb-3">Hola, Soy Jesus Ernesto Hernandez Aguilar </h1>
+                    <h3 class="mb-4"> <span class="typed-text"></span><span class="cursor">&nbsp</span> </h3>
+                    <p>Aquí encontrarás una ventana a mi pasión y dedicación en el mundo de la Programacion. </p>
+                    
+                    <a class="btn btn-primary btn-style mt-5 me-2" href="#about"> Sobre mi  </a>
+                    <a class="btn btn-style transparent-btn mt-5" href="#portfolio"> Mi Portfolio </a>
+                    
+                </div>
+                <div class="col-lg-5 text-lg-end my-image mt-lg-0 mt-4">
+                    <img src="assets/images/banner.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="neto-gallery py-5" id="portfolio">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="title-heading-w3 mx-auto text-center mb-sm-5 mb-4">
+                <h3 class="neto-title-main mb-2">Mis Trabajos y Colaboraciones</h3>
+            </div>
+            <div class="row portfolio-area clearfix p-0 m-0">
+
+                <div class="col-lg-4 col-md-6 portfolio-item2 content" data-id="id-1" data-type="cat-item-1">
+                    <span class="image-block">
+                        <a class="image-zoom" href="#" data-toggle="modal" data-target="#imageModal">
+                            <div class="content-overlay"></div>
+                            <img src="assets/images/jayden1.png" class="img-fluid netoayouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Punto-Jayden</h3>
+                                <p class="content-text">Plataforma web intuitiva que facilita la gestión integral de negocios de pollos asados</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-md-0 mt-4" data-id="id-2" data-type="cat-item-2">
+                    <span class="image-block">
+                        <a class="image-zoom"  data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="assets/images/ade1.jpg" class="img-fluid netoayouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">ADE V.3.0.0</h3>
+                                <p class="content-text">Administrador Escolar V.3.0.0</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-lg-0 mt-4" data-id="id-3" data-type="cat-item-3">
+                    <span class="image-block">
+                        <a class="image-zoom"  data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="assets/images/" class="img-fluid netoayouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">SEA V.1.0.0</h3>
+                                <p class="content-text">Sistema de Evaluacion Academica</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-4" data-id="id-4" data-type="cat-item-4">
+                    <span class="image-block">
+                        <a class="image-zoom"  data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="assets/images/crud.png" class="img-fluid netoayouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">CRUD | Base de datos en ACCESS</h3>
+                                <p class="content-text">C# visual studio</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-4" data-id="id-5" data-type="cat-item-5">
+                    <span class="image-block">
+                        <a class="image-zoom"  data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="assets/images/tablero.png" class="img-fluid netoayouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Tablero Deportivo </h3>
+                                <p class="content-text">Creación de un tablero deportivo con conexión Bluetooth y aplicación móvil.</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item2 content mt-4" data-id="id-7" data-type="cat-item-6">
+                    <span class="image-block">
+                        <a class="image-zoom"  data-gal="prettyPhoto[gallery]">
+                            <div class="content-overlay"></div>
+                            <img src="assets/images/blog6.jpg" class="img-fluid netoayouts agileits" alt="portfolio-img">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Real Estate </h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <!--end portfolio-area -->
+        </div>
+        <!-- //gallery container -->
+    </section>
+    <section class="neto-about py-5" id="about">
+        <div class="container py-md-5 py-2">
+            <div class="row neto-row">
+                <div class="col-lg-5 my-image pe-lg-5 mb-lg-0 mb-md-5 mb-4">
+                    <img src="assets/images/about.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-7 neto-about-info px-lg-4 align-center">
+                    <h3 class="neto-title-main mb-2">Acerca de mi</h3>
+                    <p class="my-4 pe-lg-5">
+                      Soy un ingeniero en sistemas con sede en Ciudad de México, entusiasta por iniciar mi carrera profesional. Mi formación abarca el diseño de interfaces y 
+                      desarrollo web, y también tengo experiencia en el soporte y mantenimiento de equipos de cómputo.
+                       Mi objetivo es aplicar mis habilidades para crear soluciones innovadoras y eficientes que impulsen la tecnología y mejoren la experiencia del usuario.
+
+                    </p>
+                    <div class="my-info mt-4">
+                        <div class="single-info"><span>Nombre:</span>
+                            <p> Jesus Ernesto Hernandez Aguilar</p>
+                        </div>
+                        <div class="single-info"><span>Ciudad :</span>
+                            <p>Ciudad de Mexico, Mex.</p>
+                        </div>
+                        <div class="single-info"><span>Correo:</span>
+                            <p><a >jesus.ernestohdez08@gmail.com</a></p>
+                        </div>
+                        <div class="single-info"><span>Telefono:</span>
+                            <p><a>+52 746 106 2069</a></p>
+                        </div>
+                    </div>
+
+                    <ul class="follow-social mt-lg-5 mt-4">
+                        <li>
+                            <h5 class="me-md-3">Perfiles en línea:</h5>
+                        </li>
+
+                        <li><a href="https://github.com/Ernesto2te"><span class="fab fa-github"></span></a>
+                        </li>
+
+                        <li><a href="https://linkedin.com/in/jesus-ernesto-hernandez-aguilar-35154930b"><span class="fab fa-linkedin-in"></span></a>
+                        </li>
+
+
+                    </ul>
+                    <div class="neto-btn">
+                        <a href="assets/cv/Curriculum Vitae Jesus Ernesto Hernandez Aguilar .pdf" class="btn btn-style btn-secondary mt-lg-5 mt-4">Descargar CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="neto-habilidades py-5" id="skills">
+        <div class="container py-lg-5 py-md-4 py-3">
+            <div class="row">
+                <div class="col-lg-6 pe-lg-5">
+                    <img src="assets/images/about1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5 neto-content-6 px-lg-4 align-self-center">
+                    <h3 class="neto-title-main">Mis habilidades </h3>
+                    <p class="mt-4">Soy ingeniero en sistemas y técnico en mantenimiento de cómputo, especializado en desarrollo web y soporte técnico. Mi pasión es crear soluciones innovadoras y eficientes.</p>
+                    <div class="progress-info mt-5">
+                        <h6 class="progress-tittle">Desarrollo Front-End</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info">
+                        <h6 class="progress-tittle">Desarrollo Back-End</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info">
+                        <h6 class="progress-tittle">Bases de Datos</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info">
+                        <h6 class="progress-tittle">Mantenimiento de Hardware</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-info mb-0">
+                        <h6 class="progress-tittle">Soporte Técnico</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                 
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="neto-Hobbies pt-5" id="about1">
+        <div class="container pt-lg-0 pt-md-4 pt-2">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <h2 class="neto-title-main mb-5 text-center">Mis Hobbies</h2>
+                </div>
+                <div class="col-lg-7 pe-lg-5 align-items-center">
+                    <div class="row two-grids">
+                        <div class="col-sm-6 grids_info d-flex">
+                            <i class="fas fa-camera"></i>
+                            <div class="detail ms-3">
+                                <h4 class="neto-subtitle">Fotografía</h4>
+                                <p>Me encanta capturar momentos especiales y explorar la belleza a través del lente de mi cámara.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">
+                            <i class="fas fa-code"></i>
+                            <div class="detail ms-3">
+                                <h4 class="neto-subtitle">Programación</h4>
+                                <p>Disfruto crear aplicaciones y soluciones a través de la programación, explorando nuevas tecnologías y metodologías.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                            <i class="fas fa-music"></i>
+                            <div class="detail ms-3">
+                                <h4 class="neto-subtitle">Escuchar Música</h4>
+                                <p>Me apasiona escuchar música de diversos géneros, lo que me ayuda a relajarme e inspirarme.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                            <i class="fas fa-brain"></i>
+                            <div class="detail ms-3">
+                                <h4 class="neto-subtitle">Estudio y Aprendizaje Constante</h4>
+                                <p>Me gusta estudiar y aprender constantemente, manteniéndome actualizado en el campo de la tecnología y desarrollo.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                            <i class="fas fa-gamepad"></i>
+                            <div class="detail ms-3">
+                                <h4 class="neto-subtitle">Videojuegos</h4>
+                                <p>Disfruto de la diversión y el desafío de los videojuegos, especialmente los de estrategia y aventura.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 grids_info d-flex mt-md-5 mt-4">
+                            <i class="fas fa-tools"></i>
+                            <div class="detail ms-3">
+                                <h4 class="neto-subtitle">Experimentación con Electrónicos</h4>
+                                <p>Disfruto experimentar con dispositivos electrónicos, explorando sus componentes y buscando maneras de mejorar su funcionamiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 ps-lg-5 my-image mt-lg-0 mt-4">
+                    <img src="assets/images/banner.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+  
+     <footer class="text-center" id="contac">
+        <div class="footer py-5">
+            <div class="container py-md-4">
+                <div clss="footer-logo">
+                    <a class="logo" >
+                       Ing. Jesus Ernesto Hernandez Aguilar
+                    </a>
+                </div>
+                <div class="footer-contact-info mt-4">
+                    <ul>
+                        <li>
+                            <a class="contact-text-sub">
+                                <span class="fas fa-phone me-2"></span> +52 746 106 2069</a>
+                        </li>
+                        <li>
+                            <a  class="contact-text-sub">
+                                <span class="fas fa-envelope me-2"></span>jesus.ernestohdez08@gmail.com </a>
+                        </li>
+                        <li>
+                            <p class="contact-text-sub"> 
+                                <span class="fas fa-map-marker me-2"></span>Iztapalapa Ciudad de México, CDMX</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //modal 1 -->
+
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="color: black;" id="imageModalLabel">Punto-Jayden</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/jayden1.png" class="d-block w-100" alt="Imagen 1">
+                                <div class="carousel-caption">
+                                    <h5>Login</h5>
+                                    <p>Un diseño de login minimalista y responsivo que utiliza una paleta de colores sutil.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/jayden2.png" class="d-block w-100" alt="Imagen 2">
+                                <div class="carousel-caption">
+                                    <h5>Punto de Venta</h5>
+                                    <p>Punto de venta incluye almacenamiento de carrito, búsqueda de productos, confirmación de compra y generación de tickets.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/jayden3.png" class="d-block w-100" alt="Imagen 3">
+                                <div class="carousel-caption">
+                                    <h5>Registro de Productos </h5>
+                                    <p>Interfaz para registrar productos y verificar su existencia en inventario.</p>                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/jayden4.png" class="d-block w-100" alt="Imagen 4">
+                                <div class="carousel-caption">
+                                    <h5>Registro de Personal</h5>
+                                    <p>Registro de empleados, asignación de roles y creación de credenciales de acceso.</p>                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/jayden5.png" class="d-block w-100" alt="Imagen 5">
+                                <div class="carousel-caption">
+                                    <h5>Creditos</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+ 
+
+
+
+    <!--/owlcarousel-->
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- //brands-->
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                nav: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        nav: false
+                    },
+                    568: {
+                        items: 3,
+                        nav: false
+                    },
+                    768: {
+                        items: 4,
+                        nav: false
+                    }
+                }
+            })
+        })
+
+    </script>
+    <!-- //brands-->
+
+    <!-- /typig-text-->
+    <script>
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        const textArray = ["Full Stack", "Programador", "Tecnomántico", "Freelancer"];
+        const typingDelay = 200;
+        const erasingDelay = 10;
+        const newTextDelay = 100; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                cursorSpan.classList.remove("typing");
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                // add class 'typing' if there's none
+                if (!cursorSpan.classList.contains("typing")) {
+                    cursorSpan.classList.add("typing");
+                }
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            } else {
+                cursorSpan.classList.remove("typing");
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+            if (textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+    </script>
+    <!-- //typig-text-->
+
+
+    <!-- jQuery-Photo-filter-lightbox-portfolio-plugin -->
+    <!-- jQuery and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.quicksand.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- //jQuery-Photo-filter-lightbox-portfolio-plugin -->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+  
+
+</body>
+
+
+</html>
